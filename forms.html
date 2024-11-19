@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="Refresh" content="05"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get" enctype="application/x-www-form-urlencoded">
+        <label for="nom">nom</label> <input type="text" name="nom" id="nom"><br>
+        <label for="password">mdp</label><input type="password" id="motDePasse" name="motDePasse" required>  <br>
+        <label for="mail">mail</label><input type="email" id="email" name="email" placeholder="exemple@domaine.com" ><br>
+        <input type="checkbox" id="accepterConditions" name="accepterConditions" value="accepte">
+        <label for="accepterConditions">J'accepte les conditions</label><br>
+        
+        <input type="radio" id="genreHomme" name="genre" value="homme">
+        <label for="genreHomme">Homme</label>
+        <input type="radio" id="genreFemme" name="genre" value="femme">
+        <label for="genreFemme">Femme</label><br>
+        <label for="date">date de naissance</label>
+        <input type="date" name="dn" id="dn" min="2024-10-19"><br>
+        <input type="radio" id="SituationC" name="Situation" value="homme">
+        <label for="SituationC">Celibataire</label>
+        <input type="radio" id="SituationM" name="Situation" value="femme">
+        <label for="SituationM">Marié</label> <br>
+        <input type="range" id="niveauVolume" name="volume" min="0" max="100" value="50"><br>
+        <input type="number" id="quantite" name="quantite" min="1" max="10" step="1" value="1"><br>
+        <input type="color" id="couleur" name="couleur" value="#FF0000"><br>
+        <label for="hidden" >hidden</label> <input type="hidden"><br>
+        <input type="tel" id="numeroTelephone" name="numeroTelephone" pattern="\+216 [0-9]{2}-[0-9]{3}-[0-9]{3}" placeholder="+216-00-000-000"><br>
+        <input type="url" id="siteWeb" name="siteWeb" placeholder="http://www.example.com" required><br>
+        <input type="time" id="heureRdv" name="heureRdv" min="09:00" max="18:00" step="900" required><br>
+        <input type="month" id="moisAnnee" name="moisAnnee" min="2023-01" max="2023-12" required><br>
+
+
+
+        <input type="file" name="fichier" id=""><br>
+        <input type="submit" value="Enregistrer"><br>
+        <input type="reset" value="Reset"><br>
+        
+
+        
+    </form>
+</body>
+</html>
